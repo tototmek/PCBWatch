@@ -156,6 +156,39 @@
 	(zone
 		(net 0)
 		(net_name "")
+		(layers "F.Cu" "F.CrtYd")
+		(uuid "dbcdc5b2-f0f9-4c75-9b87-cd1d4dc1cdf1")
+		(name "Oscillator keep out zone")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks allowed)
+			(vias allowed)
+			(pads allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy 7.4 -0.8) (xy 7.4 1.7) (xy -1.1 1.7) (xy -1.1 -0.8)
+			)
+		)
+	)
+	(zone
+		(net 0)
+		(net_name "")
 		(layers "B.Cu" "B.CrtYd")
 		(uuid "73f38df7-692d-4f58-af02-66e1b253a5db")
 		(name "Oscillator keep out zone")
