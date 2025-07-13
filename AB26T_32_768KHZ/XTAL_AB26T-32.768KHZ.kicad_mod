@@ -1,0 +1,190 @@
+(footprint "XTAL_AB26T-32.768KHZ"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 1.25 -2 0)
+		(layer "F.SilkS")
+		(uuid "c8741c4f-cf1f-437d-ba4c-4aa084cbf3d9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "XTAL_AB26T-32.768KHZ"
+		(at 6.35 3.175 0)
+		(layer "F.Fab")
+		(uuid "4e51dc01-df79-4a06-bd7e-80561f220675")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c7c9f07e-32bc-442d-a975-4fa374206592")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f01c93fa-1f74-4c10-b159-f4dc6e405841")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -0.8 -0.5)
+		(end -0.8 1.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "f1d6f9d0-1e2b-4325-89a0-b97374d43061")
+	)
+	(fp_line
+		(start -0.8 1.4)
+		(end 0.4 1.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "40dbafe8-af65-49f6-af2d-930a0f3075b5")
+	)
+	(fp_line
+		(start 0.4 -0.5)
+		(end -0.8 -0.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "fc554bc4-f0a5-4144-bd40-6dac804953ca")
+	)
+	(fp_line
+		(start 5.9 -0.5)
+		(end 7.1 -0.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "c3481671-9240-419e-a46c-389f8a815f7a")
+	)
+	(fp_line
+		(start 7.1 -0.5)
+		(end 7.1 1.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "683f8ca9-c5dc-4c3a-90aa-1203dc5bb47b")
+	)
+	(fp_line
+		(start 7.1 1.4)
+		(end 6 1.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "fdc2d76c-43da-4ff7-93c8-1627b9793734")
+	)
+	(fp_rect
+		(start -0.6 -0.3)
+		(end 6.9 1.2)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "04ae46ac-ea2f-46a7-ab30-87824671809a")
+	)
+	(pad "1" smd roundrect
+		(at 0 0.9)
+		(size 1.2 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "8bca084a-375e-4ce8-8d2a-c7e31d57a32f")
+	)
+	(pad "2" smd roundrect
+		(at 6.3 0.9)
+		(size 1.2 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "7ea7fc0e-e90a-42ba-875f-9987611688e6")
+	)
+	(pad "3" smd roundrect
+		(at 6.3 0)
+		(size 1.2 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "23522ab4-dc83-4060-aea2-cadfd76bfb04")
+	)
+	(pad "4" smd roundrect
+		(at 0 0)
+		(size 1.2 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "9563f504-b68e-4226-aeef-e38c2de585e8")
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layers "B.Cu" "B.CrtYd")
+		(uuid "73f38df7-692d-4f58-af02-66e1b253a5db")
+		(name "Oscillator keep out zone")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour not_allowed)
+			(footprints not_allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy -1.1 -0.8) (xy -1.1 1.7) (xy 7.4 1.7) (xy 7.4 -0.8)
+			)
+		)
+	)
+	(embedded_fonts no)
+)
