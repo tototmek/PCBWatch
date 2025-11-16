@@ -1,0 +1,33 @@
+{
+  "name": "PCB Edge Type C",
+  "description": "Use your PCB itself as a USB Type-C connector! Includes 10-pin, 14-pin, and 24-pin footprints and matching symbols.",
+  "description_full": "A small library that allows you to use type C without soldering a connector to your board. Make sure your PCB is 0.6mm or 0.8mm thick, and use ENIG plating to preseve your cables. Limited mating cycles can be lengthened by using hard gold plating",
+  "identifier": "pcbtypec",
+  "type": "library",
+  "author": {
+    "name": "Anas Malas",
+    "contact": {
+      "homepage": "https://github.com/AnasMalas/pcb-edge-usb-c"
+    }
+  },
+  "license": "CC0-1.0",
+  "resources": {
+    "homepage": "https://github.com/AnasMalas/pcb-edge-usb-c"
+  },
+  "tags": [
+    "usb",
+    "usb-c",
+    "type-c",
+    "connector",
+    "pcb-edge",
+    "footprints",
+    "symbols"
+  ],
+  "versions": [
+    {
+      "version": "1.1.0",
+      "status": "stable",
+      "kicad_version": "9.0"
+    }
+  ]
+}

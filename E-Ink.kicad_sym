@@ -52,7 +52,7 @@
 		(symbol "E-Ink-1.54-connector_0_1"
 			(rectangle
 				(start 0 -1.27)
-				(end 12.7 -64.77)
+				(end 16.51 -64.77)
 				(stroke
 					(width 0)
 					(type default)
@@ -489,6 +489,42 @@
 					)
 				)
 				(number "24"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 10.16 -67.31 90)
+				(length 2.54)
+				(name "SH1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "SH1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 13.97 -67.31 90)
+				(length 2.54)
+				(name "SH2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "SH2"
 					(effects
 						(font
 							(size 1.27 1.27)
