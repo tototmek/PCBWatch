@@ -3,4 +3,6 @@
   (lib (name "CR2032 Battery holder")(type "KiCad")(uri "${KIPRJMOD}/BAT_HLD_001/KiCADv6/2025-07-11_13-01-56.kicad_sym")(options "")(descr ""))
   (lib (name "WL-S7DS_0.3INCH_COMMON-ANODE")(type "KiCad")(uri "${KIPRJMOD}/7seg/WL-S7DS_0.3INCH_COMMON-ANODE.kicad_sym")(options "")(descr ""))
   (lib (name "AB26T-32.768KHZ")(type "KiCad")(uri "${KIPRJMOD}/AB26T_32_768KHZ/AB26T-32.768KHZ.kicad_sym")(options "")(descr ""))
+  (lib (name "E-Ink")(type "KiCad")(uri "${KIPRJMOD}/E-Ink.kicad_sym")(options "")(descr ""))
+  (lib (name "E-Ink-1.54")(type "KiCad")(uri "${KIPRJMOD}/E-Ink-1.54.kicad_sym")(options "")(descr ""))
 )
