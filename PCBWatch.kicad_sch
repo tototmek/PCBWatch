@@ -3410,12 +3410,13 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "Tactile Switches 50mA 12VDC, 5.2x5.2mm, 1.5mm H, 160gf, G leads, No ground pin, metal actuator"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify bottom)
 					(hide yes)
 				)
 			)
@@ -3440,16 +3441,6 @@
 				)
 			)
 			(property "MOUSER_PRICE-STOCK" "https://www.mouser.co.uk/ProductDetail/CK/PTS526-SM15-SMTR2-LFS?qs=UXgszm6BlbENivbslIA%252B5g%3D%3D"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "DESCRIPTION" "Tactile Switches 50mA 12VDC, 5.2x5.2mm, 1.5mm H, 160gf, G leads, No ground pin, metal actuator"
 				(at 0 0 0)
 				(effects
 					(font
@@ -5564,16 +5555,6 @@
 		)
 		(uuid "fa882c3b-b431-4dfe-86b8-bcc831324b27")
 	)
-	(label "BUTTON1"
-		(at 50.8 142.24 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "0a263572-152c-4b74-b1ed-d443e8ef3597")
-	)
 	(label "BUTTON1-T"
 		(at 133.35 127 0)
 		(effects
@@ -5583,16 +5564,6 @@
 			(justify left bottom)
 		)
 		(uuid "0d2e562b-409e-496c-a027-844b2003597c")
-	)
-	(label "SDI"
-		(at 81.28 124.46 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "108fec16-5107-437f-a0b6-7014ebc471aa")
 	)
 	(label "BUSY"
 		(at 240.03 52.07 0)
@@ -5634,35 +5605,35 @@
 		)
 		(uuid "20ada18d-0f10-4d12-acd9-b413669eacdf")
 	)
-	(label "BUTTON3"
-		(at 92.71 81.28 0)
+	(label "SCLK"
+		(at 81.28 119.38 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "2afc7e1e-64f2-4b1c-b4ab-3e76fcc2fd61")
+		(uuid "39bf5026-a7ff-47d3-9f2f-1523a7275efc")
 	)
-	(label "BUTTON2"
-		(at 50.8 165.1 180)
+	(label "BUSY"
+		(at 50.8 142.24 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "3bb780c1-7907-4f70-890c-22407fbfb6d2")
+		(uuid "427291e0-0828-4329-8e50-be4b15dd1936")
 	)
 	(label "BUTTON3"
-		(at 50.8 162.56 180)
+		(at 81.28 109.22 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "4d42a837-28b9-4d69-b707-af8d4a8fa1db")
+		(uuid "463d8bd3-1344-47ca-9edf-c087c42864f3")
 	)
 	(label "D{slash}C"
 		(at 240.03 57.15 0)
@@ -5684,6 +5655,16 @@
 		)
 		(uuid "5a29f263-cdbc-47fe-9643-c7cd00a9e33c")
 	)
+	(label "D{slash}C"
+		(at 50.8 137.16 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5eadcd14-05b4-42eb-b1ec-21a726c80280")
+	)
 	(label "BUTTON1-T"
 		(at 113.03 78.74 0)
 		(effects
@@ -5694,15 +5675,15 @@
 		)
 		(uuid "62468f00-8ee6-4b04-92dc-03dddd138f0b")
 	)
-	(label "RES"
-		(at 81.28 109.22 0)
+	(label "SDI"
+		(at 81.28 124.46 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "77a4b877-7dd9-41b5-b073-a9c06078af52")
+		(uuid "6e6f31d5-a84a-496b-a8d2-8bb20d9228e1")
 	)
 	(label "PREVGL"
 		(at 242.57 87.63 0)
@@ -5744,16 +5725,6 @@
 		)
 		(uuid "90118dcf-61f6-43bd-95c1-49d37609e768")
 	)
-	(label "SCLK"
-		(at 81.28 119.38 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9c52cbc4-075a-4970-8896-e4bb4611b0a4")
-	)
 	(label "NRST"
 		(at 36.83 106.68 0)
 		(effects
@@ -5763,6 +5734,16 @@
 			(justify left bottom)
 		)
 		(uuid "a55c380f-3364-4152-bb02-3dd7f56caa6b")
+	)
+	(label "CS"
+		(at 81.28 116.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b2cf0aa6-54cf-45ba-8b2f-b144c281d71a")
 	)
 	(label "BUTTON3-T"
 		(at 133.35 171.45 0)
@@ -5784,15 +5765,35 @@
 		)
 		(uuid "b993b4b4-dda3-4eea-9058-2021bf82895e")
 	)
-	(label "CS"
-		(at 81.28 116.84 0)
+	(label "BUTTON3-T"
+		(at 113.03 81.28 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "c1bcc599-5edc-46e4-9300-d1980fd1ba5f")
+		(uuid "ba540f80-66d0-4e85-bf93-65dd056c0444")
+	)
+	(label "BUTTON2"
+		(at 50.8 162.56 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c388fa66-6aac-44cd-a73e-880b9c58b52c")
+	)
+	(label "RES"
+		(at 50.8 139.7 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c4c2cd71-7854-4052-a0a2-b9158334c90e")
 	)
 	(label "SCLK"
 		(at 240.03 62.23 0)
@@ -5844,25 +5845,15 @@
 		)
 		(uuid "d19bd36c-05fc-449d-b17e-ec05fa331c81")
 	)
-	(label "BUTTON3-T"
-		(at 113.03 81.28 0)
+	(label "BUTTON3"
+		(at 92.71 81.28 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "d1d0bf7a-9052-438e-80e0-393f49f6c865")
-	)
-	(label "D{slash}C"
-		(at 81.28 114.3 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f334f004-a448-40ca-9705-d9b061e09485")
+		(uuid "e3eb3ed7-b6e9-4b5c-a2fc-19b88f3acdfc")
 	)
 	(label "BUTTON2-T"
 		(at 113.03 76.2 0)
@@ -5874,15 +5865,15 @@
 		)
 		(uuid "f464c3f2-9c1d-4d92-8d20-6c34c5925b08")
 	)
-	(label "BUSY"
-		(at 81.28 111.76 0)
+	(label "BUTTON1"
+		(at 50.8 165.1 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "f7b510d1-fdf1-49cb-8091-00866ea5dd6c")
+		(uuid "f490c025-ac3b-45ba-b777-1f96308f0416")
 	)
 	(label "RES"
 		(at 240.03 54.61 0)
