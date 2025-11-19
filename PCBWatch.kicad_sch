@@ -6060,21 +6060,21 @@
 		(dnp no)
 		(uuid "029a2a16-1363-4eab-b054-efc6d34dde7c")
 		(property "Reference" "R6"
-			(at 144.272 99.822 90)
+			(at 152.146 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "3/0.47/2.2"
-			(at 146.304 94.488 90)
+		(property "Value" "2.2 (ew. 3/0.47)"
+			(at 150.368 99.822 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
@@ -8308,7 +8308,7 @@
 				)
 			)
 		)
-		(property "Value" "10u/47u"
+		(property "Value" "UC:10uH,1A SSD:/47uH, 0.5mA"
 			(at 139.7 64.77 90)
 			(effects
 				(font
@@ -11638,7 +11638,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Si1304BDL / Si1308EDL TUBE MOS"
+		(property "Value" "Si1304BDL / Si1308EDL TUBE MOS / AO3400"
 			(at 152.4 90.1699 0)
 			(effects
 				(font
